@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
 
 /* Common Styles */
 * {
@@ -83,10 +83,10 @@ html {
   }
   
   .navbar-link {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #fff;
+	color:  #495463;
 	margin: 0 2.5rem;
 	text-shadow: 0 0.3rem 0.5rem #000;
   }
@@ -175,11 +175,11 @@ html {
 }
 
 .tikal img {
-	position: absolute;
-	top: 40rem;
+	position: fixed;
+	top: 20rem;
 	right: 0rem;
 	width: 60rem;
-	height: 30rem;
+	height: 60rem;
 }
 
 
@@ -191,7 +191,7 @@ html {
 	top: 2rem;
 	width: 3px;
 	height: 3rem;
-	background-color: red;
+	background-color: silver;
 	left: -50.2rem;
 	transform: rotate(35deg);
   }
@@ -201,7 +201,7 @@ html {
 	top: 1.6rem;
 	width: 3px;
 	height: 6rem;
-	background-color: rgb(255, 0, 89);
+	background-color: silver;
 	left: -40.9rem;
 	transform: rotate(140deg);
   }
@@ -211,7 +211,7 @@ html {
 	top: 2.2rem;
 	width: 6.7rem;
 	height: 3px;
-	background-color: rgb(0, 30, 255);
+	background-color: silver;
 	left: -49.3rem;
   }
 
@@ -220,7 +220,7 @@ html {
 	top: 1.7rem;
 	width: 3px;
 	height: 6rem;
-	background-color: rgb(230, 0, 255);
+	background-color: silver;
 	left: -41rem;
 	transform: rotate(35deg);
   }
@@ -230,7 +230,7 @@ html {
 	top: 3.5rem;
 	width: 3px;
 	height: 6rem;
-	background-color: rgb(255, 157, 0);
+	background-color: silver;
 	left: -45.5rem;
 	transform: rotate(90deg);
 
@@ -241,7 +241,7 @@ html {
 	top: 5.4rem;
 	width: 3rem;
 	height: 3px;
-	background-color: rgb(0, 255, 8);
+	background-color: silver;
 	left: -51rem;
 	transform: rotate(35deg);
   }
@@ -251,7 +251,7 @@ html {
 	top: 6.7rem;
 	width: 6.6rem;
 	height: 3px;
-	background-color: rgb(81, 0, 255);
+	background-color: silver;
 	left: -38.9rem;
 	transform: rotate(180deg);
   }
@@ -261,7 +261,7 @@ html {
 	top: 2.2rem;
 	width: 6.7rem;
 	height: 3px;
-	background-color: rgb(0, 30, 255);
+	background-color: silver;
 	left: -39rem;
   }
 
@@ -270,7 +270,7 @@ html {
 	top: 1.7rem;
 	width: 3px;
 	height: 6rem;
-	background-color: rgb(230, 0, 255);
+	background-color: silver;
 	left: -30.8rem;
 	transform: rotate(35deg);
   }
@@ -280,7 +280,7 @@ html {
 	top: 1.6rem;
 	width: 3px;
 	height: 6rem;
-	background-color: rgb(255, 0, 89);
+	background-color: silver;
 	left: -30.8rem;
 	transform: rotate(140deg);
   }
@@ -290,7 +290,7 @@ html {
 	top: 2.2rem;
 	width: 6.7rem;
 	height: 3px;
-	background-color: rgb(0, 30, 255);
+	background-color: silver;
 	left: -28.8rem;
   }
 
@@ -299,7 +299,7 @@ html {
 	top: 6.7rem;
 	width: 6.6rem;
 	height: 3px;
-	background-color: rgb(81, 0, 255);
+	background-color: silver;
 	left: -28.8rem;
 	transform: rotate(180deg);
   }
@@ -309,7 +309,7 @@ html {
 	top: 1.7rem;
 	width: 3px;
 	height: 6rem;
-	background-color: rgb(230, 0, 255);
+	background-color: silver;
 	left: -20.7rem;
 	transform: rotate(35deg);
   }
@@ -319,7 +319,7 @@ html {
 	top: 1.6rem;
 	width: 3px;
 	height: 6rem;
-	background-color: rgb(255, 0, 89);
+	background-color: silver;
 	left: -20.7rem;
 	transform: rotate(140deg);
   }
@@ -329,7 +329,7 @@ html {
 	top: 2.2rem;
 	width: 6.7rem;
 	height: 3px;
-	background-color: rgb(0, 30, 255);
+	background-color: silver;
 	left: -19rem;
   }
 
@@ -338,7 +338,7 @@ html {
 	top: 6.7rem;
 	width: 6.6rem;
 	height: 3px;
-	background-color: rgb(81, 0, 255);
+	background-color: silver;
 	left: -19rem;
 	transform: rotate(180deg);
   }
@@ -348,7 +348,7 @@ html {
 	top: 4rem;
 	width: 3px;
 	height: 3rem;
-	background-color: red;
+	background-color: silver;
 	left: -11.8rem;
 	transform: rotate(35deg);
   }
@@ -358,7 +358,7 @@ html {
 	top: 3.2rem;
 	width: 3rem;
 	height: 3px;
-	background-color: rgb(0, 255, 8);
+	background-color: silver;
 	left: -13rem;
 	transform: rotate(35deg);
   }
@@ -368,13 +368,13 @@ html {
 	top: 4rem;
 	width: 90rem;
 	height: 3px;
-	background-color: rgb(0, 255, 8);
+	background-color: silver;
 	left: -10.5rem;
   }
 
   /* God */
   .title {
-	position: absolute;
+	position: fixed;
 	padding: 0;
 	top: 10rem;
 	left: 3rem;
@@ -384,7 +384,7 @@ html {
   }
   
   .definition {
-	position: absolute;
+	position: fixed;
 	padding: 0;
 	top: 16.5rem;
 	left: 5rem;
@@ -398,7 +398,7 @@ html {
   .cruz {
 	position: fixed;
 	width: 10px;
-	height: 20rem;
+	height: 25rem;
 	background-color: red;
 	top: 50rem;
 	left: 25rem;
